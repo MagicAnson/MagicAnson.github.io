@@ -4,13 +4,102 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2021/10/04/hello-world/"/>
-    <url>/2021/10/04/hello-world/</url>
+    <title>Hexo初折腾，轮播壁纸，外送壁纸说明</title>
+    <link href="/2021/10/07/Hexo%E5%88%9D%E6%8A%98%E8%85%BE%EF%BC%8C%E8%BD%AE%E6%92%AD%E5%A3%81%E7%BA%B8%EF%BC%8C%E5%A4%96%E9%80%81%E5%A3%81%E7%BA%B8%E8%AF%B4%E6%98%8E/"/>
+    <url>/2021/10/07/Hexo%E5%88%9D%E6%8A%98%E8%85%BE%EF%BC%8C%E8%BD%AE%E6%92%AD%E5%A3%81%E7%BA%B8%EF%BC%8C%E5%A4%96%E9%80%81%E5%A3%81%E7%BA%B8%E8%AF%B4%E6%98%8E/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Hexo站点搭建后第一件事就是找个喜欢的Theme，因为这不但是门面也是激励自己坚持写下去的动力。<a href="https://www.himagic.net/">麦咭哥</a>认为好的门面要有一张足够漂亮的图片，而且最好是能及时更新、定时刷新的图片。Wordpress可以通过插件配合Theme实现，那么Hexo怎么做呢？</p><span id="more"></span><p>Hexo最好的修改方案是通过纯前端实现，因为但凡依赖后台服务的实现，就会遇到服务不可访问的问题，这与Hexo静态生成的初衷是相悖的。<br>其实当Theme确定后，纯前端是容易实现的，因为可以通过Theme的配置加载自定义js, css文件，这些文件可以定位Theme中具体的tag进行操作，当然如果Theme默认内嵌了jQuery就更方便了。<br>话不多说，直接看效果吧，向上看，壁纸会每30秒更换，包括壁纸说明，很简单，作为Hexo之旅的敲门砖吧，这个功能的名字是，<strong>【纸说】</strong>，感兴趣的同学可以跟我联系。</p>]]></content>
     
     
+    <categories>
+      
+      <category>网站搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo 插件开发</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>如何将已备案域名指向github.io，以及github的自定义域名丢失问题</title>
+    <link href="/2021/10/06/%E5%A6%82%E4%BD%95%E5%B0%86%E5%B7%B2%E5%A4%87%E6%A1%88%E5%9F%9F%E5%90%8D%E6%8C%87%E5%90%91github.io%EF%BC%8C%E4%BB%A5%E5%8F%8Agithub%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E4%B8%A2%E5%A4%B1%E9%97%AE%E9%A2%98/"/>
+    <url>/2021/10/06/%E5%A6%82%E4%BD%95%E5%B0%86%E5%B7%B2%E5%A4%87%E6%A1%88%E5%9F%9F%E5%90%8D%E6%8C%87%E5%90%91github.io%EF%BC%8C%E4%BB%A5%E5%8F%8Agithub%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D%E4%B8%A2%E5%A4%B1%E9%97%AE%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<p>github.io对于码农来说是一大福利，免去了租用博客空间的花费，但默认域名是 <code>github账号名</code>.github.io, 如果想要个性化的域名，就需要在github相应项目的设定中设置好自己的个性域名，看似简单，但这个设置其实也是有不少坑的。</p><span id="more"></span><h2 id="设置github-io个性域名有哪些坑"><a href="#设置github-io个性域名有哪些坑" class="headerlink" title="设置github.io个性域名有哪些坑"></a>设置github.io个性域名有哪些坑</h2><ul><li>github建议将个性域名的cname指向github.io，但是，如果你的域名备案了，并且你希望设置的个性域名是www域名或者根域名，就不应该这么设置，否则会判定你主机备案失效，导致你的备案被撤销</li><li>根据上述原因，尽量不要将www域名或者根域名指向github.io，如果的确想这么做，就在你备案主机上安装nginx，并增加指向github.io的反向代理，这样看起来就合规了</li><li>当你执行<code>hexo deploy</code>后，如果发现访问个性域名得到了404错误的话，就需要在<code>hexo/source</code>目录下新建<code>CNAME</code>文件，并将个性化域名作为该文件的内容，这样再deploy就不会发生404问题了<br><img src="Xnip2021-10-07_22-12-38.jpg"></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>网站搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hexo生成新版静态文件时，图片没有被拷贝到public目录的问题</title>
+    <link href="/2021/10/06/Hexo%E7%94%9F%E6%88%90%E6%96%B0%E7%89%88%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E6%97%B6%EF%BC%8C%E5%9B%BE%E7%89%87%E6%B2%A1%E6%9C%89%E8%A2%AB%E6%8B%B7%E8%B4%9D%E5%88%B0public%E7%9B%AE%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <url>/2021/10/06/Hexo%E7%94%9F%E6%88%90%E6%96%B0%E7%89%88%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6%E6%97%B6%EF%BC%8C%E5%9B%BE%E7%89%87%E6%B2%A1%E6%9C%89%E8%A2%AB%E6%8B%B7%E8%B4%9D%E5%88%B0public%E7%9B%AE%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>搭建起来Hexo站点后，肯定会新增图片，比如favicon.png，avatar.png等，类似这样的文件需要集中放置在 <code>$&#123;hexo root&#125;/source/img/</code> 下，当有和 <code>Theme/img/</code> 重名的文件时，source下的文件优先级最高，实现上应该是copy顺序的安排。这样的设计是合理的，自定义文件集中放置在source目录，管理起来直观。但当执行<code>hexo g</code>后，一些预期需要copy到public目录下的图片并没有如期而至，哪里出了问题？</p><span id="more"></span><h2 id="问题排查"><a href="#问题排查" class="headerlink" title="问题排查"></a>问题排查</h2><ul><li>怀疑因为db.json的缓存机制导致copy没有执行，所以先执行<code>hexo clean</code>，再执行 <code>hexo g</code>，问题没有解决</li><li>进入<code>source/img</code>看看文件是否正常，似乎没问题，但属性列被加上 **<code>@</code>**，这些图片是从浏览器下载的，被附加了额外的属性，可能因为潜在安全问题导致copy失败</li><li>删除附加属性后再次执行<code>hexo g</code>，问题得以解决</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs iterm">-rw-r--r--@    26K  22:44 avatar.png<br>-rw-r--r--@    22K  00:04 bg1.jpg<br>-rw-r--r--@   231K  00:05 bg1.png<br>-rw-r--r--@    38K  00:04 bg2.jpg<br>-rw-r--r--@   592K  00:05 bg2.png<br>-rw-r--r--@    36K  00:04 bg3.jpg<br>-rw-r--r--@   554K  00:05 bg3.png<br>-rw-r--r--@    79K  00:04 bg4.jpg<br>-rw-r--r--@   921K  00:06 bg4.png<br>-rw-r--r--@   231K  00:05 default.png<br></code></pre></td></tr></table></figure><h2 id="启发思考"><a href="#启发思考" class="headerlink" title="启发思考"></a>启发思考</h2><ul><li>之前的经验是网站icon需要设置为 <code>favicon.ico</code>，而现在可以设置为png了，不但方便了，效果也好了很多，需要在head区块内添加如下语句即可</li></ul><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;icon&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/img/favicon.png&quot;</span>&gt;</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>网站搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>为什么开始用Hexo，与Wordpress的比对</title>
+    <link href="/2021/10/05/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8Hexo%EF%BC%8C%E4%B8%8EWordpress%E7%9A%84%E6%AF%94%E5%AF%B9/"/>
+    <url>/2021/10/05/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8Hexo%EF%BC%8C%E4%B8%8EWordpress%E7%9A%84%E6%AF%94%E5%AF%B9/</url>
+    
+    <content type="html"><![CDATA[<p>趁着假期将域名从Godaddy搬回了国内，因为Godday上的域名续期比国内贵了一倍，反正都有备案号了；同时将香港主机的数据打包备份恢复到本地了，这个主机这几年基本就属于闲置白缴费的状态；为了督促自己多读书，准备重拾博客，重点是将开始尝试Hexo之旅，为什么放弃玩了十几年的Wordpress呢？</p><span id="more"></span><p>麦咭哥之所以放弃Wordpress，原因种种，跟Hexo相比大致列举如下：</p><table><thead><tr><th align="right"></th><th align="center">Wordpress</th><th align="center">Hexo</th><th align="center">结论</th><th align="center">胜出</th></tr></thead><tbody><tr><td align="right">开发语言</td><td align="center">PHP</td><td align="center">Node.js</td><td align="center">除了Wordpress已经没有场合再使用PHP，而Node.js正普遍用于各项目</td><td align="center">Hexo</td></tr><tr><td align="right">数据库</td><td align="center">MySQL</td><td align="center">不需要</td><td align="center">部署环境至简，能把数据库省掉自然是极好的</td><td align="center">Hexo</td></tr><tr><td align="right">运行环境</td><td align="center">Apache/PHP/MySQL</td><td align="center">纯静态页面</td><td align="center">Hexo在本地直接生成了全部静态网页，这样发布到OSS都可以跑起来了</td><td align="center">Hexo</td></tr><tr><td align="right">后台管理</td><td align="center">非常专业的管理界面</td><td align="center">默认无管理界面，命令行 + Markdown编辑器</td><td align="center">习惯了VSCode和npm命令行的同学后者不是难事，但对于其他行业的同学有门槛</td><td align="center">Wordpress</td></tr><tr><td align="right">网络安全</td><td align="center">全球最大的博客系统自然树大招风，避免不了无穷尽的打补丁</td><td align="center">纯静态页面，除了被DDOS攻击和HTTP劫持也没什么了</td><td align="center">Hexo在本地有完整的备份，结合Git发布，相当于机器猫的任意门了</td><td align="center">Hexo</td></tr><tr><td align="right">插件和主题</td><td align="center">系统本身就是为了插件而设计的，<a href="https://www.himagic.net/">麦咭哥</a>就做了几十个插件，可想其丰富程度了</td><td align="center">坦白说不多，也不少，在不跑偏的前提下，总能找到解决方案</td><td align="center">面对Wordpress的无所不能，作为静态页面解决方案的Hexo，够用足矣，想要评论功能也是可以有的</td><td align="center">Wordpress</td></tr><tr><td align="right"></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>]]></content>
+    
+    
+    <categories>
+      
+      <category>网站搭建</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+      <tag>wordpress</tag>
+      
+    </tags>
     
   </entry>
   
